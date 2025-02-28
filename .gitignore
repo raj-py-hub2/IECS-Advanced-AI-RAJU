@@ -1,0 +1,24 @@
+# hypertuning
+**/mlruns/*
+**/models/
+**/modellogs/*
+**/logs/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.egg-info/
+
+
+# Database
+*.db
+*.rdb
+
+# Mac OS-specific storage files
+.DS_Store
+
+.mypy_cache/
+**/checkpoint.pt
+.pdm-python
+.lycheecache
+**/*.log
+**/gestures/

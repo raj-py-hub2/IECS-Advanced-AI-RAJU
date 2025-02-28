@@ -1,0 +1,11 @@
+import gin.torch.external_configurables
+
+CNN_model.config = {
+    "conv_layers": 4,
+    "output_size": 10,
+    'filters': 64,
+    "dropout": 0.4,
+    "fc_layer1": 256,
+    "fc_layer2": 128,
+    "input_size":(32, 1, 28, 28)
+}

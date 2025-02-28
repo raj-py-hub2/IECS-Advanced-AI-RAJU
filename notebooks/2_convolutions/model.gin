@@ -1,0 +1,6 @@
+import gin.torch.external_configurables
+
+CNN_custom.filters = 64
+CNN_custom.units1 = 128
+CNN_custom.units2 = 64
+CNN_custom.dropout_rate = 0.4

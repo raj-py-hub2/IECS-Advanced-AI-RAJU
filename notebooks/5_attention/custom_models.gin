@@ -1,0 +1,14 @@
+import gin.torch.external_configurables
+
+LSTMModel.input_size=14
+LSTMModel.hidden_size=256
+LSTMModel.num_layers=4
+LSTMModel.num_classes=2
+
+rnn_models.AttentionGRU.config = {
+    "input_size" : 14,
+    "hidden_size" : 256,
+    "dropout" : 0.06,
+    "num_layers" : 4,
+    "output_size" : 10
+}

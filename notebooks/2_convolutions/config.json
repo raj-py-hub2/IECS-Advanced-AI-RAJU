@@ -1,0 +1,19 @@
+{
+  "model": {
+    "type": "CNN",
+    "filters": 64,
+    "units1": 128,
+    "units2": 64,
+    "dropout": 0.4
+  },
+  "training": {
+    "epochs": 10,
+    "batch_size": 32,
+    "learning_rate": 0.001,
+    "optimizer": "Adam"
+  },
+  "logging": {
+    "use_tensorboard": true,
+    "use_mlflow": true
+  }
+}
