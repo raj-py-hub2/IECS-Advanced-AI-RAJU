@@ -124,15 +124,21 @@ Run through the installer like this:
 ## add the git repo
 run in the cli:
 
-`git clone https://github.com/raj-py-hub2/IECS-Advanced-AI-RAJU`
+```bash
+git clone https://github.com/raj-py-hub2/IECS-Advanced-AI-RAJU
+```
 
 ## add your username and email to git
-1. `git config --global user.name "Mona Lisa"`
-2. `git config --global user.email "m.lisa@pisa.com"`
+```bash
+git config --global user.name "Mona Lisa"
+git config --global user.email "m.lisa@pisa.com"
+```
 
 ## install all dependencies (rye will install all dependencies)
-1. `cd IECS-Advanced-AI-RAJU/`
-2. `rye sync`
+```bash
+cd IECS-Advanced-AI-RAJU
+rye sync
+```
 
 ## Watch the video.
 
