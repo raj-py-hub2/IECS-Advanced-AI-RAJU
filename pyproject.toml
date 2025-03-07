@@ -1,10 +1,10 @@
 [project]
-name = "mads-deeplearning"
+name = "IECS-Advanced-AI-RAJU"
 version = "0.1.0"
 description = ""
 
 authors = [
-    {name = "R.Grouls", email = "Raoul.Grouls@han.nl"},
+    {name = "Raju"},
 ]
 
 requires-python = ">=3.10,<3.12"
