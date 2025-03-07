@@ -30,45 +30,47 @@
 The `notebooks` folder contains lessons divided into Jupyter notebooks. Each notebook follows the naming convention `xx_name_of_module.ipynb` where `xx` represents the lesson number. Below is an overview of each lesson and its contents.
 
 #### 0. Baseline (`0-baseline/`)
-This folder contains notebooks introducing basic Python operations, including:
-- Fundamental Python concepts
-- Array manipulation and vectorization
-- Classes and functions
+This module introduces fundamental Python programming concepts required for AI and machine learning.
+
+- `00_Vecotrisation and Broadcasting.ipynb` – Covers variables, loops, vectorization and broadcasting.
+- `02_classes_and_functions` – Demonstrates object-oriented programming and function-based modularity.
+- `02_pydantic.ipynb` – Introduces the configuration strategy to manage parameters. 
+
 
 #### 1. PyTorch Introduction (`1_pytorch_intro/`)
 This module introduces PyTorch tensors, data handling, and training basic neural networks.
 
-- `01_tensors.ipynb`: Introduction to Torch tensors, including manipulation and broadcasting.
-- `02_datagenerators.ipynb` & `03_dataloaders.ipynb`: Implementation of custom dataloaders and loading datasets using `mads_dataset` for machine learning tasks.
-- `04_neuralnets.ipynb`: Introduction to building a simple linear neural network.
-- `05_image_classification.ipynb`: Training a neural network for image classification using the Fashion MNIST dataset.
-- `06_exercise.ipynb`: Exercise solution that explores changes in different parameters and their effects.
+- `01_tensors.ipynb` – Introduces Torch tensors, covering operations, broadcasting, and manipulation.
+- `02_datagenerators.ipynb` & `03_dataloaders.ipynb` – Demonstrates custom data generators and dataloaders, including dataset loading using `mads_dataset`.
+- `04_neuralnets.ipynb` – Contains training code for a simple neural network in PyTorch.
+- `05_image_classification.ipynb` – Implements a neural network for image classification using the Fashion MNIST dataset.
+- `06_exercise.ipynb` – Provides an exercise on hyperparameter tuning, allowing users to analyze parameter changes and their effects.
 
 #### 2. Convolutions (`2_convolutions/`)
 This module focuses on handling image datasets and training convolutional neural networks (CNNs).
 
-- Introduction to CNN model training on image datasets.
-- `03_mlflow.ipynb`: Introduction to MLFlow for tracking the machine learning lifecycle.
-- `04_exercises.ipynb`: Exercise solutions, including a configurable CNN model for Fashion MNIST dataset.
+- `02_convolutions.ipynb` – Covers the CNN model training on image datasets.
+- `03_mlflow.ipynb` – Introduces MLFlow, a tool for tracking machine learning models, training runs, and hyperparameters.
+- `04_exercises.ipynb` – Contains training code for a configurable CNN model for Fashion MNIST classification.
 
 #### 3. Recurrent Networks (`3_recurrent_networks/`)
 This module covers time-series data and different types of recurrent neural networks (RNNs).
 
-- Understanding the windowing technique for time-series data.
-- Introduction to Simple RNNs, GRUs, and LSTMs, along with their respective use cases.
+- `01_windowing.ipynb` – Introduces the windowing technique, a method for processing time-series data.
+- `03_basemodels.ipynb` – Contains implementations of Simple RNNs, GRUs, and LSTMs, explaining their architectures and use cases.
 
 #### 4. Tuning Networks (`4_tuning_networks/`)
 This module explores different hyperparameter tuning strategies and transfer learning techniques.
 
-- `02_hypertuner.ipynb`: Implementation of hyperparameter tuning methods such as Grid Search, Bayesian Optimization, and Hyperopt.
-- `04_transfer_learning_with_resnet.ipynb` and `05_minimal_transfer_learning.ipynb`: Introduction to transfer learning techniques for leveraging pre-trained models.
-- `Hypertuning_Exercise.ipynb`: Exercise solution involving two models to perform parameter search for maximizing accuracy.
+- `02_hypertuner.ipynb` – Demonstrates hyperparameter tuning methods such as Grid Search, Bayesian Optimization, and Hyperopt.
+- `04_transfer_learning_with_resnet.ipynb` & `05_minimal_transfer_learning.ipynb` – Introduce transfer learning, showing how to fine-tune pre-trained models like ResNet for new tasks.
+- `Hypertuning_Exercise.ipynb` – Contains an exercise on hyperparameter tuning, requiring users to compare multiple models and find the best configuration.
 
 #### 5. Attention Mechanism (`5_attention/`)
 This module introduces the attention mechanism and its role in model training.
 
-- Understanding how attention mechanisms help in faster model convergence.
-- `06_metric.ipynb`: Importance of selecting the right evaluation metric, especially in cases of class imbalance.
+- `03_Attention_gestures.ipynb` – Explores how attention mechanisms help deep learning models learn better representation and converge faster.
+- `06_metric.ipynb` – Demonstrates the importance of selecting the correct evaluation metric.
 
 
 ## Dependencies 
@@ -121,7 +123,7 @@ Run through the installer like this:
 4. Download and install the latest release of [rye](https://rye.astral.sh/) 
 
 
-## add the git repo
+## clone the git repo
 run in the cli:
 
 ```bash
